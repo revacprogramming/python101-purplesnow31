@@ -1,3 +1,8 @@
-# Strings
-
-text = "X-DSPAM-Confidence:    0.8475"
+def output(convert): 
+  print(convert)
+def main():
+  text=myinput()
+  c=compute(text)
+  output(c)
+main()  
+  
