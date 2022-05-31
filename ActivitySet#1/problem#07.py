@@ -1,9 +1,7 @@
 
-def output(convert): 
-  print(convert)
-def main():
-  text=myinput()
-  c=compute(text)
-  output(c)
-main()  
-  
+
+text = "X-DSPAM-Confidence:    0.8475"
+p= text.find(':')
+c=text[p+1:]
+f=float(c)
+print(f)
